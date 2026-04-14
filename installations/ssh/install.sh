@@ -9,7 +9,7 @@ sudo sed -i 's/#Port 22/Port 2222/' /etc/ssh/sshd_config
 
 # 2. Désactiver la connexion en root
 sudo sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin no/' /etc/ssh/sshd_config
-sudo sed -i 's/PermitRootLogin yes/PermitRootLogin no/' /etc/ssh/sshd_config
+sudo sed -i 's/PermitRootLogin no/PermitRootLogin no/' /etc/ssh/sshd_config
 
 # 3. Forcer l'authentification par clé
 # Attention : Assurez-vous d'avoir copié votre clé avant de passer PasswordAuthentication à 'no'
