@@ -3,7 +3,7 @@
 ## Description
 Ce projet, nommé **AEGIS**, regroupe un ensemble d'outils et de scripts destinés à la sécurisation (hardening) et à l'audit continu d'un serveur GNU/Linux. Il permet d'automatiser le durcissement des services vitaux et de générer des rapports de sécurité détaillés.
 
-## Auteur
+## Auteurs
 * **Kenneth ADJE**
 * **Davian MBAYI**
 * **Toure SOUWOYE**
